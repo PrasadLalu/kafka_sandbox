@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-const MONGO_URI = 'mongodb+srv://test-user-01:bVT28WbeaDanrdtT@cluster0.mdhfauk.mongodb.net/kafkadb';
+const MONGO_URI = 'mongodb+srv://<username>:<password>@cluster0.mdhfauk.mongodb.net/kafkadb';
 
 const connectDB = async () => {
     try {
